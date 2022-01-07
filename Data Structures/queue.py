@@ -1,4 +1,4 @@
-class queue:
+class Queue:
     
     def __init__(self):
         self._entries=[]
@@ -23,7 +23,7 @@ class queue:
 
 if __name__ =="__main__":
 
-    Q1=queue()
+    Q1=Queue()
     Q1.put(2)
     Q1.put(5)
     Q1.put(8)
